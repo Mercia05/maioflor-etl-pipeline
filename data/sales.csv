@@ -1,0 +1,9 @@
+sale_id,product_id,units_sold,sale_date,region
+101,1,45,2025-06-01,Western Cape
+102,2,32,2025-06-02,Gauteng
+103,3,58,2025-06-03,KZN
+104,4,41,2025-06-03,Eastern Cape
+105,5,29,2025-06-04,Western Cape
+106,1,63,2025-06-04,Limpopo
+107,2,47,2025-06-05,Gauteng
+108,3,51,2025-06-05,KZN

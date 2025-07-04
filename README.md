@@ -1,7 +1,5 @@
 MaioFlor ETL Insights Pipeline
-
 ---
-
 1. Project Overview
 
 Project Name:  
@@ -46,6 +44,7 @@ Overview:
 Basic cleaning and formatting of flat CSV files before loading into the database.
 
 Detailed Steps: 
+
 - Validate column headers and data types  
 - Ensure clean separation of values (e.g. ingredients)  
 - (Optional) Normalize ingredients or dates  
@@ -70,7 +69,7 @@ Schema:
 Load Frequency:  
 One-time load (manually triggered)
 
-Data Validation:**  
+Data Validation:
 Basic row count checks after insert  
 Successful table creation and non-null fields verified
 
@@ -84,7 +83,7 @@ Environment Requirements:**
 - Git Bash or any terminal
 - pip (Python package manager)
 
-Installation Instructions:**
+Installation Instructions:
 
 bash:
 
@@ -108,6 +107,7 @@ Password
 Database name (maioflor_db)
 
 7. Running the ETL
+
 Step-by-Step Execution:
 
 bash:
@@ -119,6 +119,7 @@ python scripts/extract_csv.py
 python scripts/load_to_postgres.py
 
 8. Monitoring and Logging
+
 Logging is handled via print statements for simplicity.
 
 For production: use logging module with log rotation.
@@ -126,11 +127,21 @@ For production: use logging module with log rotation.
 No alerting or dashboards included yet.
 
 9. Testing
+
 Test Cases (manual):
 
 Successful connection to PostgreSQL
 
 Tables created correctly
+
+Products Table
+
+![Products Table](assets/products_table.png)
+
+Sales Table
+
+![Sales Table](assets/sales_table.png)
+
 
 Row counts match source CSV files
 

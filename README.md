@@ -9,13 +9,13 @@ MaioFlor Health wants to centralize its operational data to identify top-perform
 
 ---
 
-2. Architecture Diagram
+Architecture Diagram
 
 ![ETL Diagram](maioflor_etl_diagram.png)
 
 ---
 
-3. Data Sources
+Data Sources
 
 Source Systems:
 - `products.csv` – contains product names, categories, ingredients, and pricing  
@@ -34,7 +34,7 @@ Frequency:
 
 ---
 
-4. Transformation Logic
+Transformation Logic
 
 Overview: 
 Basic cleaning and formatting of flat CSV files before loading into the database.
@@ -53,7 +53,7 @@ Tools/Technologies:
 
 ---
 
-5. Load Destination
+Load Destination
 
 Target System: 
 PostgreSQL (local instance)
@@ -71,7 +71,7 @@ Successful table creation and non-null fields verified
 
 ---
 
-6. Prerequisites and Setup
+Prerequisites and Setup
 
 Environment Requirements:**
 - Python 3.x
@@ -102,19 +102,19 @@ Password
 
 Database name (maioflor_db)
 
-7. Running the ETL
+Running the ETL
 
 Step-by-Step Execution:
 
 bash:
 
-# Step 1: Extract CSVs
+Step 1: Extract CSVs
 python scripts/extract_csv.py
 
-# Step 2: Load into PostgreSQL
+Step 2: Load into PostgreSQL
 python scripts/load_to_postgres.py
 
-8. Monitoring and Logging
+Monitoring and Logging
 
 Logging is handled via print statements for simplicity.
 
@@ -122,7 +122,7 @@ For production: use logging module with log rotation.
 
 No alerting or dashboards included yet.
 
-9. Testing
+Testing
 
 Test Cases (manual):
 
@@ -151,7 +151,7 @@ data/products.csv
 data/sales.csv
 Included in repo for repeatability.
 
-10. Maintenance and Updates
+Maintenance and Updates
 How to Update:
 
 Modify CSV files or scripts as needed
@@ -164,12 +164,12 @@ Single version managed via Git
 Backup & Recovery:
 Database backups recommended if using production data (not included in this simulation)
 
-11. Contributors
+Contributors
 Gugu Thumbu
 Email: guguthumbu@outlook.com
 GitHub: github.com/Mercia05
 
-12. References and Resources
+References and Resources
 PostgreSQL Documentation
 
 Pandas Documentation

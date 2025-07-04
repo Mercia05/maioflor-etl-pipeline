@@ -73,7 +73,7 @@ Successful table creation and non-null fields verified
 
 Prerequisites and Setup
 
-Environment Requirements:**
+Environment Requirements:
 - Python 3.x
 - PostgreSQL
 - Git Bash or any terminal
@@ -88,7 +88,7 @@ cd maioflor-etl-pipeline
 
 (Optional) Virtual environment
 python -m venv .venv
-.venv\Scripts\activate  # or source .venv/Scripts/activate
+.venv\Scripts\activate  or source .venv/Scripts/activate
 
 Install dependencies
 pip install -r requirements.txt
@@ -164,12 +164,15 @@ Single version managed via Git
 Backup & Recovery:
 Database backups recommended if using production data (not included in this simulation)
 
+
 Contributors
 Gugu Thumbu
 Email: guguthumbu@outlook.com
 GitHub: github.com/Mercia05
 
-References and Resources
+
+References and Resources:
+
 PostgreSQL Documentation
 
 Pandas Documentation

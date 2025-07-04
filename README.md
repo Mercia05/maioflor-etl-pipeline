@@ -2,7 +2,7 @@ MaioFlor ETL Insights Pipeline
 ---
 Project Overview
 
-This is a beginner-friendly ETL (Extract, Transform, Load) pipeline built with Python and PostgreSQL. The pipeline loads product and sales data for MaioFlor Health — a fictional South African company that produces organic skincare and herbal supplements — into a structured database for future analytics and reporting.
+This is a beginner-friendly ETL (Extract, Transform, Load) pipeline built with Python and PostgreSQL. The pipeline loads product and sales data for MaioFlor Health a fictional South African company that produces organic skincare and herbal supplements in to a structured database for future analytics and reporting.
 
 Business Context:  
 MaioFlor Health wants to centralize its operational data to identify top-performing products, popular ingredients, and emerging trends across categories. This pipeline serves as the foundation for those insights, supporting future dashboards and BI tools.

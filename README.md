@@ -1,5 +1,5 @@
 MaioFlor Health Q1 2025 Sales & Product Performance Analysis
-By Gugu Thumbu
+by Gugu Thumbu
 
 Executive Summary
 As a data analyst for MaioFlor Health, I conducted a comprehensive analysis of our business performance for the first quarter of 2025 (January to March). The aim was to understand how our newly launched product lines herbal and organic skincare and body care have performed in terms of sales, category trends, and ingredient popularity.
